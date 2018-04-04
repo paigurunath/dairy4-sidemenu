@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only >
+          <!-- <ion-icon ios="ios-options-outline" md="md-options"></ion-icon> -->
+          <ion-icon ios="ios-cart" md="md-cart" tabBadge="3" ></ion-icon>
+          <!-- <ion-icon name="ios-cart-outline">2</ion-icon> -->
+
+
+          <ion-icon name="ios-cart-outline" style="position:relative; font-weight:bold; font-size:2em;" color="white">
+            <ion-badge style="position:absolute; font-weight:bold; top:-5px; left:14px; font-size:10px; padding-left: 4px;padding-right: 4px;" color="danger">
+              12
+            </ion-badge>  
+          </ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+  
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item-sliding *ngFor="let productEach of product">
+    <ion-item>
+      <ion-avatar item-left>
+        <img [src]="productEach.image">
+      </ion-avatar>
+      <h2>{{productEach.name}}</h2>
+      <h3>{{productEach.mrp | currency}}</h3>
+      <p>{{productEach.quantity}} </p>
+      <p>{{productEach.id}} </p>
+      <button ion-button color="secondary" (click)='goToProductDetail(productEach, $event)' >
+        <ion-icon name="cart"></ion-icon>
+        Add Cart
+      </button>
+    </ion-item>
+    <ion-item-options side="right">
+      <button ion-button color="danger">
+        <ion-icon name="trash"></ion-icon>
+        Remove
+      </button>
+      <button ion-button color="secondary" >
+        <ion-icon name="cart"></ion-icon>
+        Add Cart
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+
+</ion-content>

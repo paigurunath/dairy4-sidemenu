@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+        "id": 1,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 2,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 3,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 4,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 5,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 6,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 7,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    },
+    {
+        "id": 8,
+      "name": "Amul gold",
+      "mrp": "22.0",
+      "type": "Toned",
+      "quantity": "500ml",
+      "category": "cow",
+      "brand": "Amul",
+      "type1": "pouch",
+      "image": "assets/imgs/logo.png"
+    }
+  ]
+}
